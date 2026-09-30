@@ -1,0 +1,22 @@
+artifact_path: /workspaces/MLOPS/03-Experiment_tracking/mlruns/2/models/m-60b8e0d4a2ca4e158ae5a1bae1688c4a/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.12.14
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.core.Booster
+    model_format: ubj
+    xgb_version: 3.4.1
+mlflow_version: 3.15.2
+model_id: m-60b8e0d4a2ca4e158ae5a1bae1688c4a
+model_size_bytes: 119463
+model_uuid: m-60b8e0d4a2ca4e158ae5a1bae1688c4a
+prompts: null
+run_id: 1b001054a17c4cb49f660d2f2390d799
+utc_time_created: '2026-09-18 14:34:54.519887'
